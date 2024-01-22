@@ -34,3 +34,19 @@ Big O notation: O(n^2) hem selection sort hem insortion sort için geçerli.
 
 18 sayısı ortada bulunduğu için average case durumuna girer.
 
+
+### Merge Sort 
+````
+step 1: [16,21,11]              [8,12,22]
+
+step 2: [16]    [11,21]         [8]      [12,22]
+
+step 3: [16]    [11]    [21]    [8]     [12]    [22]
+
+step 4: [11,16,21]       [8,12,22]
+
+step 5: [8,11,12,16,21,22] end
+
+````
+Big O notation: O(logn)
+
